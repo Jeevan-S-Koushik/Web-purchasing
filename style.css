@@ -1,0 +1,111 @@
+.second_leftside, .second_rightside{
+    height: 100vh;
+    width: 75%;
+}
+.second_leftside{
+    margin-left: 10px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: 1px  rgb(0, 0, 0);
+}
+.second_rightside{
+    background-color: rgba(21, 22, 22, 0);
+    border: 1px  rgba(0, 0, 0);
+}
+
+#companyName{
+    font-weight: bold;
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 80px;
+}
+#email, #password{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border-width: 0cm;
+}
+#login{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    color: rgb(238, 229, 229);
+    font-weight:normal;
+    width: 300px;
+    height: 35px;
+}
+#help{
+    color: black;
+    font-size: small;
+}
+#logo{
+    width: 300px;
+    height: 250px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    animation-name: headmove;
+    animation-duration: 10s;
+}
+@keyframes headmove {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:0.5 ;
+        transform:
+    }
+    100%{
+        opacity: 0.8;
+    }
+}
+#quote{
+    color: aliceblue;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: overline;
+    margin-bottom: 40px;
+    animation-name: headmove;
+    animation-duration: 10s;
+}
+#hyper{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    /* margin-left:40px; */
+    margin-top:50px;
+    animation-name: headmove;
+    animation-duration: 10s;
+}
+#info{
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-family:cursive;
+    margin-left: 10px;
+    animation-name: headmove;
+    animation-duration: 10s;
+    /* margin-top: 20px; */
+}
+#black{
+    color: black;
+}
+#black1{
+    color: rgba(0, 0, 0, 0.514);
+    margin-top: 20px;
+    font-family:monospace;
+    font-weight: bold;
+    border: 1px solid rgb(248, 242, 242); 
+    background-color: rgba(0, 0, 0, 0.068);
+}
+#about{
+    color: white;
+    font-size: medium;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+#aboutBG{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}

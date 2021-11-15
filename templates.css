@@ -1,0 +1,48 @@
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+
+}
+#tempheadding{
+    color: white;
+    font-family: cursive;
+    font-size:30px;
+}
+#imgbtn1{
+    border-color: lightblue;
+}
+#temp{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+}
+#temp1{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.301);
+    /* color: white; */
+}
+#demo{
+    font-family: cursive;
+    color: black;
+    font-weight: bold;
+}
+#imgbtn1, #imgbtn3{
+    margin-left: 20px;
+    margin-right: 200px;
+}
+#imgbtn2{
+    margin-left: 200px;
+    margin-right: 20px;
+}
+#imgbtn4{
+    margin-left: 290px;
+    margin-right: 20px;
+}
+#purchase{
+    background-color:rgba(0, 0, 0, 0.39);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
